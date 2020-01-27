@@ -1,0 +1,1 @@
+This code will generate a table of spearman rank correlations found in the supplemental figure 2 panel a. The input data is a list of bed files for each replication timing replicate for each time point. The code merges these into the a single dataframe based on coordinate and computes the spearman rank. The output is a table of these correlations saved to the working directory. 

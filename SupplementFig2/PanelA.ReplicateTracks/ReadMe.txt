@@ -1,0 +1,1 @@
+This code will produce the genome tracks featured in supplement figure 2 panel a. This code simply displays the individual genome tracks for the three replicates used to make the figure 5 a, and thus function in the same manor. The primary difference is this code only produces one chromosome track at a time. As input data, we have provided the time course for the third replicate.
