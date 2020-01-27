@@ -1,0 +1,7 @@
+This code will produce the heatmap seen in figure 5, panel b. This analysis is designed to visualize the increase and spread of signal over time in human replication timing data. The code take a list of bedgraphs files, annotated with respect to know early or late regions, scales these regions to equal lengths, account for chromosome ends to keep timing domain of interest at the center of the figure, and colors the data based on scale. The final plotting order is based on ranking the signal from highest to lowest.
+
+Notably, the boundaries of the timing domains were used for this analysis because that would not allow for the visualization of signal spread over time. To visualize this later point, defined the boundaries of as the midpoint between two timing domains, which is the midpoint of the nearest transition zone or the  space separating the timing domains. To account for chromosome ends, we split the data into left and right halves based on the center of the timing domain, and then added a proportion number of NA regions  to side with the chromosome, thus keeping the timing domain in the middle of the figure, while also preserving the relative proportion of signal found in each region. 
+
+The input files for this analysis include the left and right halves for the human 15hr time point, both of which are provide, and an annotated list of erd regions which is used to indicate their position within the heatmap. 
+
+To visualize the output, please type “finalp” into the R terminal.
