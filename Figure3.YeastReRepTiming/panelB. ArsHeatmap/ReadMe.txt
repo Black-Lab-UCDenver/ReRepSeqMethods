@@ -1,0 +1,5 @@
+This code will generate the heatmap found in figure 3 panel b. This analysis was performed to look for signal enrichment in erd and lrd timing domains across known ars origins in yeast. These ars sequences are quite small, in the order of 1kb or smaller, which makes the initation of and subsequent spread of dna replication difficult to monitor. To better montitor these features of dna replication, we used a 25kb interval from the middle of each ars sequence, producing equally sized 50kb genomic coordinates. This larger interval allowed us to visual both the onset of replication (signal in the middle of a given region) as well as the spread of signal.
+
+We featured the 25min timepoint in this analysis, this data is provided in this directory along with the an annotated version of the ERD bed file to label the postions of ERDs in the heatmap.
+
+The Output of this script is the generation of the heatmap, which will need to be displayed by typing "finalp", for final plot, into the R terminal. You can visualize the heatmap alone by typing "p", and the erd positions by typing "pERD". 
